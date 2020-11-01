@@ -1,18 +1,100 @@
 <template>
-  <div class="container">
-      <h1>Sobre</h1>
-      <p>
-          Essa pagina é sobre o corpo docente da nossa escola!
-      </p>
-        </div>
+  <div>
+    <div class="mt-4">
+      <h4>Daniela Henriques - Coordenadora</h4>
+      <b-card
+        img-src="https://placekitten.com/300/300"
+        img-alt="Card image"
+        img-left
+        class="mb-3"
+      >
+        <b-card-text>
+          Some quick example text to build on the card and make up the bulk of
+          the card's content.
+        </b-card-text>
+      </b-card>
+
+      <h4 class="nomeDocentesDireita">Ludmila Gambogi - Professora</h4>
+      <b-card
+        img-src="https://placekitten.com/300/300"
+        img-alt="Card image"
+        img-right
+      >
+        <b-card-text>
+          Some quick example text to build on the card and make up the bulk of
+          the card's content.
+        </b-card-text>
+      </b-card>
+      <h4>Daniela Henriques - Coordenadora</h4>
+      <b-card
+        img-src="https://placekitten.com/300/300"
+        img-alt="Card image"
+        img-left
+        class="mb-3"
+      >
+        <b-card-text>
+          Some quick example text to build on the card and make up the bulk of
+          the card's content.
+        </b-card-text>
+      </b-card>
+
+      <h4 class="nomeDocentesDireita">Ludmila Gambogi - Professora</h4>
+      <b-card
+        img-src="https://placekitten.com/300/300"
+        img-alt="Card image"
+        img-right
+      >
+        <b-card-text>
+          Some quick example text to build on the card and make up the bulk of
+          the card's content.
+        </b-card-text>
+      </b-card>
+      <h4>Daniela Henriques - Coordenadora</h4>
+      <b-card
+        img-src="https://placekitten.com/300/300"
+        img-alt="Card image"
+        img-left
+        class="mb-3"
+      >
+        <b-card-text>
+          Some quick example text to build on the card and make up the bulk of
+          the card's content.
+        </b-card-text>
+      </b-card>
+
+      <h4 class="nomeDocentesDireita">Ludmila Gambogi - Professora</h4>
+      <b-card
+        img-src="https://placekitten.com/300/300"
+        img-alt="Card image"
+        img-right
+      >
+        <b-card-text>
+          Some quick example text to build on the card and make up the bulk of
+          the card's content.
+        </b-card-text>
+      </b-card>
+      <h4>Ludmila Gambogi - Professora</h4>
+      <b-card
+        img-src="https://placekitten.com/300/300"
+        img-alt="Card image"
+        img-left
+        class="mb-3"
+      >
+        <b-card-text>
+          Some quick example text to build on the card and make up the bulk of
+          the card's content.
+        </b-card-text>
+      </b-card>
+    </div>
+  </div>
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
 <style>
-
+.nomeDocentesDireita {
+  text-align: right;
+}
 </style>
