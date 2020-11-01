@@ -44,7 +44,7 @@
       v-model="text"
       placeholder="Escreva aqui a sua mensagem."
       rows="3"
-      max-rows="6"
+      max-rows="3"
     ></b-form-textarea>
 
     <pre class="mt-3 mb-0">{{ text }}</pre>
