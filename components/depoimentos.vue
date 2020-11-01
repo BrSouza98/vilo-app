@@ -1,5 +1,6 @@
 <template>
-  <div class="depoimentos">
+<div>
+    <div class="depoimentos">
     <b-carousel
       id="carousel-1"
       v-model="slide"
@@ -14,34 +15,11 @@
       @sliding-end="onSlideEnd"
     >
       <!-- Slide with blank fluid image to maintain slide aspect ratio -->
-      <b-carousel-slide caption="Blank Image" img-blank img-alt="Blank image">
-        <p>
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-          eros felis, tincidunt a tincidunt eget, convallis vel est. Ut
-          pellentesque ut lacus vel interdum." -
-          <q>Eduardo Tavares, pai de toninho.</q>
-        </p>
-      </b-carousel-slide>
-
-      <b-carousel-slide caption="Blank Image" img-blank img-alt="Blank image">
-        <p>
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-          eros felis, tincidunt a tincidunt eget, convallis vel est. Ut
-          pellentesque ut lacus vel interdum." -
-          <q>Eduardo Tavares, pai de toninho.</q>
-        </p>
-      </b-carousel-slide>
-
-      <b-carousel-slide caption="Blank Image" img-blank img-alt="Blank image">
-        <p>
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-          eros felis, tincidunt a tincidunt eget, convallis vel est. Ut
-          pellentesque ut lacus vel interdum." -
-          <q>Eduardo Tavares, pai de toninho.</q>
-        </p>
-      </b-carousel-slide>
     </b-carousel>
   </div>
+     <p>  <img src="~/assets/blog.png"></p>
+</div>
+
 </template>
 
 <script>
