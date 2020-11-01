@@ -48,9 +48,8 @@
 
     <pre class="mt-3 mb-0">{{ text }}</pre>
   </div>
-      <b-button @click="modalShow = !modalShow" type="submit" variant="primary">Enviar</b-button>
+      <b-button type="submit" variant="primary">Enviar</b-button>
       <b-button type="reset" variant="danger">Apagar</b-button>
-      <b-modal v-model="modalShow">Sua mensagem foi enviada com sucesso.</b-modal>
     </b-form>
   </div>
     </div>
@@ -83,14 +82,14 @@
           assunto: null,
           checked: []
         },
-        modalShow: false,
-        assuntos: [{ text: 'Selecione o assunto.', value: null }, 'Aluno', 'Direção', 'Matrículas', 'Dúvidas'],
+        assuntos: [{ text: 'Selecione o assunto.', value: null }, 'Aluno', 'Direção', 'Matriculas', 'Duvidas'],
         show: true
       }
     },
     methods: {
       onSubmit(evt) {
         evt.preventDefault()
+        alert(JSON.stringify(this.form))
       },
       onReset(evt) {
         evt.preventDefault()
