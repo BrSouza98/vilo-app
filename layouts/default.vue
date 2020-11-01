@@ -4,8 +4,10 @@
       <navbar></navbar>
     </header>
     <Nuxt />
+    <Footer />
   </div>
 </template>
+
 
 <style>
 html {
@@ -56,3 +58,5 @@ html {
   background-color: #35495e;
 }
 </style>
+
+

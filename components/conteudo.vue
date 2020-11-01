@@ -11,6 +11,7 @@
       </div>
     </div>
     <depoimentos class="h-30"></depoimentos>
+    <footer></footer>
   </main>
 </template>
 

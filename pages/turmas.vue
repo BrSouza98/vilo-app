@@ -2,7 +2,7 @@
   <div class="container">
       <h1>Sobre</h1>
       <p>
-          Essa pagina é sobre nossa escola!
+          Essa pagina é sobre as turmas da nossa escola!
       </p>
         </div>
 </template>
@@ -14,8 +14,5 @@ export default {
 </script>
 
 <style>
-.texto{
-  text-align: right;
-  color: red;
-}
+
 </style>
