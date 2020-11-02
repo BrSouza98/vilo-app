@@ -1,20 +1,23 @@
 <template>
- <conteudo></conteudo>
+  <div>
+    <carousel></carousel>
+    <conteudo></conteudo>
+  </div>
 </template>
 
 <script>
-import migalhaVue from '../components/migalha.vue';
+import migalhaVue from "../components/migalha.vue";
 
 export default {
   components: {
-    migalhaComponent: migalhaVue
+    migalhaComponent: migalhaVue,
   },
 
-  data(){
-      return{
-          migalha: "d-none"
-      }
-  }
+  data() {
+    return {
+      migalha: "d-none",
+    };
+  },
 };
 </script>
 
