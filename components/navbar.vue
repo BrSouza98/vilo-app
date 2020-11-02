@@ -13,7 +13,7 @@
               <b-nav-item href="sobre">Sobre</b-nav-item>
               <b-nav-item href="metodologia">Metodologia</b-nav-item>
               <b-nav-item href="corpodocente">Corpo Docente</b-nav-item>
-              <b-nav-item href="blog">Blog</b-nav-item>
+              <b-nav-item href="https://vilovicenzzi.wordpress.com/" target="_blank">Blog</b-nav-item>
               <b-nav-item href="contato">Contatos</b-nav-item>
             </b-navbar-nav>
           </b-navbar-nav>
