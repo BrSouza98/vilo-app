@@ -1,11 +1,5 @@
 <template>
   <div class="corfundo">
-          <nav aria-label="breadcrumb">
-        <ol class="breadcrumb bloco-texto9 corfundo">
-          <li class="breadcrumb-item"><a href="/">Página inicial</a></li>
-          <li class="breadcrumb-item active" aria-current="page">Corpo docente</li>
-        </ol>
-      </nav>
     <div class="centro margem2">
       <h1>Corpo Docente</h1>
       <p><img class="img1" src="~/assets/lousa.png" alt=""></p>

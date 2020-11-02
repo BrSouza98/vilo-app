@@ -1,11 +1,5 @@
 <template>
   <div>
-    <nav aria-label="breadcrumb">
-      <ol class="breadcrumb bloco-texto9 corfundo">
-        <li class="breadcrumb-item"><a href="/">Página inicial</a></li>
-        <li class="breadcrumb-item active" aria-current="page">Contato</li>
-      </ol>
-    </nav>
     <div class="margem fundo">
       <div class="container">
         <div class="row">
@@ -21,6 +15,7 @@
                   id="input-group-1"
                   label="Seu e-mail:"
                   label-for="input-1"
+                  
                 >
                   <b-form-input
                     id="input-1"
@@ -174,7 +169,7 @@ export default {
         checked: [],
       },
       assuntos: [
-        { text: "Selecione o assunto.", value: null },
+        {text: "Selecione o assunto.", value: null},
         "Aluno",
         "Direção",
         "Matriculas",
@@ -184,9 +179,24 @@ export default {
     };
   },
   methods: {
+
     onSubmit(evt) {
       evt.preventDefault();
-      alert(JSON.stringify(this.form));
+      alert('Mensagem enviada com sucesso!');
+
+          this.form.email = "";
+      this.form.name = "";
+      this.form.assunto = "";
+      this.form.textarea = null;
+      this.form.checked = [];
+      // Trick to reset/clear native browser form validation state
+      this.show = false;
+      this.$nextTick(() => {
+        this.show = true;
+      });
+
+      
+
     },
     onReset(evt) {
       evt.preventDefault();
@@ -201,6 +211,11 @@ export default {
       this.$nextTick(() => {
         this.show = true;
       });
+    },
+
+    EnviarLimpar() {
+      // Reset our form values
+  
     },
   },
 };

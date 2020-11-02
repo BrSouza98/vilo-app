@@ -27,5 +27,10 @@
 export default {};
 </script>
 
-<style>
+<style lang="scss" scoped>
+  .menu{
+    a{
+      color: white;
+    }
+  }
 </style>

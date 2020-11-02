@@ -1,20 +1,20 @@
 <template>
   <footer class="footer">
-    <div class="footer-notes">
-      <div class="col" style="float: left; width: 60%">
-        <h2>Sobre a escola</h2>
-        <p>
-          A escola Emeb Vilo Vicenzzi está no mercado há 19 anos formando alunos
-          com qualidade e amor, desde o berçário (4 meses) ao Infantil III (6
-          anos). Aqui você encontrará amor, ensino de qualidade, dedicação e uma
-          equipe de profissionais capacitados e prontos a lhe atender. Nosso
-          colégio é um local totalmente estruturado para atender o bem mais
-          precioso que você tem seu(sua) FILHO(A)!
-        </p>
-      </div>
+    <div class="container">
+      <div class="row justify-content-around">
+        <div class="col-5">
+          <h2>Sobre a escola</h2>
+          <p>
+            A escola Emeb Vilo Vicenzzi está no mercado há 19 anos formando
+            alunos com qualidade e amor, desde o berçário (4 meses) ao Infantil
+            III (6 anos). Aqui você encontrará amor, ensino de qualidade,
+            dedicação e uma equipe de profissionais capacitados e prontos a lhe
+            atender. Nosso colégio é um local totalmente estruturado para
+            atender o bem mais precioso que você tem seu(sua) FILHO(A)!
+          </p>
+        </div>
 
-      <div style="margin-bottom: 20px">
-        <div>
+        <div class="col-5">
           <h3>Informações de contato</h3>
           <p class="margem">
             <svg
@@ -86,11 +86,12 @@
           </p>
         </div>
       </div>
-
     </div>
-          <div class="centro">
-        Fatec-Taquaritinga {{ new Date().getFullYear() }}
-      </div>
+
+    <div class="justify-content-center row" style="background-color: black">
+      Fatec - Taquaritinga {{ new Date().getFullYear() }}
+    </div>
+    
   </footer>
 </template>
 
@@ -101,16 +102,6 @@
   font-size: 18px;
   width: 100%;
 }
-.footer-notes {
-  margin: 0 auto;
-  max-width: 960px;
-  padding: 15px;
-  padding-bottom: 60px;
-  padding-top: 40px;
-}
-.centro {
-  text-align: center;
-  margin-top: 10px;
-  background-color: black;
-}
 </style>
+
+ 

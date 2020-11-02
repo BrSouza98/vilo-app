@@ -17,7 +17,6 @@
       <!-- Slide with blank fluid image to maintain slide aspect ratio -->
     </b-carousel>
   </div>
-     <p>  <img src="~/assets/blog.png"></p>
 </div>
 
 </template>
