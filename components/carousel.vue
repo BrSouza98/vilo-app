@@ -41,7 +41,8 @@
           >
         </template>
       </b-carousel-slide>
-      
+
+      <!-- Slide with blank fluid image to maintain slide aspect ratio -->
       <b-carousel-slide caption="Blank Image" img-blank img-alt="Blank image">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eros felis, tincidunt
@@ -49,6 +50,7 @@
         </p>
       </b-carousel-slide>
     </b-carousel>
+
 
   </div>
 </template>

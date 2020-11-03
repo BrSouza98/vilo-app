@@ -2,7 +2,7 @@
   <div>
           <navbar></navbar>
           
-    <migalha>
+    <migalha vizualizar="false">
     </migalha>
 
     <Nuxt />
@@ -14,7 +14,13 @@
 <script>
 export default {
   name: 'principal',
-  props: ['migalha'],
+
+  data(){
+    return{
+      
+    }
+  }
+
 
 }
 

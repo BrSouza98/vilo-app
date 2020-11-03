@@ -1,15 +1,13 @@
 <template>
   <main>
     <div>
-      <div class="d-flex justify-content-center">
+      <div>
         <h1>Bem-vindo ao Vilo Vincenzzi!</h1>
-        <h1 class="animate__animated animate__bounce">An animated element</h1>
-
       </div>
 
-      <b-container fluid>
-        <b-row>
-          <b-col cols="4">
+      <b-container>
+        <b-row cols="1" cols-lg="3">
+          <b-col>
             <card
               titulo="Essa escolinha é pika!"
               imagem-alt="Descrição do card"
@@ -18,8 +16,7 @@
             ></card>
           </b-col>
 
-
-          <b-col cols="4">
+          <b-col>
             <card
               titulo="Essa escolinha é pika!"
               imagem-alt="Descrição do card"
@@ -28,7 +25,7 @@
             ></card>
           </b-col>
 
-          <b-col cols="4">
+          <b-col>
             <card
               titulo="Essa escolinha é pika!"
               imagem-alt="Descrição do card"
@@ -36,21 +33,31 @@
               class="animate__backInRight"
             ></card>
           </b-col>
-
         </b-row>
-        
       </b-container>
     </div>
 
-    <footer></footer>
   </main>
 </template>
 
 <script>
 import cardVue from "./card.vue";
+import migalhaVue from "./migalha.vue";
+import Vue from 'vue'
+import { BootstrapVue, BootstrapVueIcons } from 'bootstrap-vue'
+
+Vue.use(BootstrapVue)
+Vue.use(BootstrapVueIcons)
+
 export default {
   components: {
     card: cardVue,
+    migalha: migalhaVue,
+  },
+  data() {
+    return {
+      migalha: false,
+    };
   },
 };
 </script>
