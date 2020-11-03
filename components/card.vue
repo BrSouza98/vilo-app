@@ -36,7 +36,6 @@ export default {
 }
 
   .cardConfig{
-    width: 400px;
     margin: 20px;
   }
 

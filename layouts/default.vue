@@ -1,10 +1,12 @@
 <template>
   <div>
-    <header>
-      <navbar></navbar>
-    </header>
-    <migalha></migalha>
+          <navbar></navbar>
+          
+    <migalha>
+    </migalha>
+
     <Nuxt />
+
     <Footer />
   </div>
 </template>
