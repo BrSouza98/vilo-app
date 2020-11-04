@@ -16,7 +16,7 @@
                   target="_blank"
                   >Blog</b-nav-item
                 >
-                <b-nav-item href="contato">Contatos</b-nav-item>
+                <b-nav-item href="contato">Fale conosco</b-nav-item>
               </b-nav>
             </b-nav>
           </div>

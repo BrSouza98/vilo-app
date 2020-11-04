@@ -28,7 +28,6 @@
     "node-sass": "^4.14.1",
     "sass-loader": "^10.0.4"
   },
-
   "animateConfig": {
     "prefix": "myCustomPrefix__"
   }

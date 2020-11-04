@@ -1,9 +1,8 @@
 <template>
   <div class="container">
       <h1>Sobre</h1>
-      <p>
-          Essa pagina é sobre nossa escola!
-      </p>
+
+      <p>dsaoigiduas</p>
         </div>
 </template>
 
