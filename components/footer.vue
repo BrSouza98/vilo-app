@@ -2,19 +2,18 @@
   <footer class="footer">
     <div class="container">
       <div class="row justify-content-around">
-        <div class="col-5">
-          <h2>Sobre a escola</h2>
-          <p>
-            A escola Emeb Vilo Vicenzzi está no mercado há 19 anos formando
-            alunos com qualidade e amor, desde o berçário (4 meses) ao Infantil
-            III (6 anos). Aqui você encontrará amor, ensino de qualidade,
-            dedicação e uma equipe de profissionais capacitados e prontos a lhe
-            atender. Nosso colégio é um local totalmente estruturado para
-            atender o bem mais precioso que você tem seu(sua) FILHO(A)!
-          </p>
+        <div>
+          <h2>Vilo Vincenzzi</h2>
+          <p><a href="sobre">Sobre</a></p>
+          <p><a href="metodologia">Metodologia</a></p>
+        <p><a href="corpodocente">Corpo docente</a></p>
+          <p><a  href="https://vilovicenzzi.wordpress.com/"
+                  target="_blank">Blog</a></p>
+                            <p><a href="contato">Fale conosco</a></p>
+
         </div>
 
-        <div class="col-5">
+        <div>
           <h3>Informações de contato</h3>
           <p class="margem">
             <svg
@@ -96,14 +95,12 @@
 </template>
 
 <style scoped>
-
 .footer {
   background-color: #333;
   color: #fff;
   font-size: 18px;
   box-sizing: border-box;
 }
-
 </style>
 
  
