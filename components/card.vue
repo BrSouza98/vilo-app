@@ -1,7 +1,7 @@
 <template>
  <div id="app" class="cardConfig">
     <b-card-group deck>
-      <b-card  :img-src="localImagem" :header="titulo" :alt="imagem-alt">
+      <b-card :img-src="localImagem" :header="titulo" :alt="imagem-alt">
         <b-card-text>{{texto}}</b-card-text>
       </b-card>
 
@@ -11,9 +11,9 @@
 
 <script>
 export default {
-  name: 'card',
+  name:'card',
 
-  props: ['titulo', 'imagem-alt', 'texto', 'localImagem'],
+  props:['titulo', 'imagem-alt', 'texto', 'localImagem'],
 
   data(){
     return{

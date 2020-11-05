@@ -23,12 +23,13 @@
     "@nuxtjs/eslint-module": "^2.0.0",
     "@nuxtjs/stylelint-module": "^4.0.0",
     "babel-eslint": "^10.1.0",
+    "eslint": "^7.12.1",
     "eslint-plugin-nuxt": "^1.0.0",
     "extract-text-webpack-plugin": "^3.0.2",
     "node-sass": "^4.14.1",
-    "sass-loader": "^10.0.4"
+    "sass-loader": "^10.0.4",
+    "stylelint": "^13.7.2"
   },
-
   "animateConfig": {
     "prefix": "myCustomPrefix__"
   }

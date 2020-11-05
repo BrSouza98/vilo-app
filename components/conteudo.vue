@@ -41,6 +41,7 @@
 </template>
 
 <script>
+
 import cardVue from "./card.vue";
 import migalhaVue from "./migalha.vue";
 import Vue from 'vue'
@@ -50,15 +51,18 @@ Vue.use(BootstrapVue)
 Vue.use(BootstrapVueIcons)
 
 export default {
+
   components: {
     card: cardVue,
     migalha: migalhaVue,
   },
-  data() {
-    return {
-      migalha: false,
-    };
-  },
+
+  data(){
+    return{
+      
+    }
+  }
+
 };
 </script>
 
