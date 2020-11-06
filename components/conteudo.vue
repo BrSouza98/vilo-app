@@ -36,26 +36,28 @@
         </b-row>
       </b-container>
     </div>
+
   </main>
 </template>
 
 <script>
 import cardVue from "./card.vue";
 import migalhaVue from "./migalha.vue";
-import Vue from "vue";
-import { BootstrapVue, BootstrapVueIcons } from "bootstrap-vue";
+import Vue from 'vue'
+import { BootstrapVue, BootstrapVueIcons } from 'bootstrap-vue'
 
-Vue.use(BootstrapVue);
-Vue.use(BootstrapVueIcons);
+Vue.use(BootstrapVue)
+Vue.use(BootstrapVueIcons)
 
 export default {
   components: {
     card: cardVue,
     migalha: migalhaVue,
   },
-
   data() {
-    return {};
+    return {
+      migalha: false,
+    };
   },
 };
 </script>
