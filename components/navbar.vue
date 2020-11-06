@@ -3,7 +3,9 @@
     <div>
       <b-navbar align-h="between" class="w-100 d-flex justify-content-between">
         <b-navbar-brand href="/">Vilo Vincenzzi</b-navbar-brand>
-        <b-button v-b-toggle.sidebar-right class="menu" variant="outline-dark"> <b-icon icon="grid-fill"></b-icon> </b-button>
+        <b-button v-b-toggle.sidebar-right class="menu" variant="outline-dark">
+          <b-icon icon="grid-fill"></b-icon>
+        </b-button>
         <b-sidebar id="sidebar-right" title="Menu" right shadow>
           <div class="px-3 py-2">
             <b-nav class="ml-auto">
@@ -29,15 +31,13 @@
 </template>
 
 <script>
-import Vue from 'vue'
-import { BootstrapVue, BootstrapVueIcons } from 'bootstrap-vue'
+import Vue from "vue";
+import { BootstrapVue, BootstrapVueIcons } from "bootstrap-vue";
 
-Vue.use(BootstrapVue)
-Vue.use(BootstrapVueIcons)
+Vue.use(BootstrapVue);
+Vue.use(BootstrapVueIcons);
 
-export default {
-
-};
+export default {};
 </script>
 
 <style lang="scss" scoped>
@@ -77,8 +77,7 @@ a {
   color: rgb(0, 0, 0);
 }
 
-.menu{
+.menu {
   border-radius: 10px;
 }
-
 </style>

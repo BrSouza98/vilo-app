@@ -6,11 +6,13 @@
           <h2>Vilo Vincenzzi</h2>
           <p><a href="sobre">Sobre</a></p>
           <p><a href="metodologia">Metodologia</a></p>
-        <p><a href="corpodocente">Corpo docente</a></p>
-          <p><a  href="https://vilovicenzzi.wordpress.com/"
-                  target="_blank">Blog</a></p>
-                            <p><a href="contato">Fale conosco</a></p>
-
+          <p><a href="corpodocente">Corpo docente</a></p>
+          <p>
+            <a href="https://vilovicenzzi.wordpress.com/" target="_blank"
+              >Blog</a
+            >
+          </p>
+          <p><a href="contato">Fale conosco</a></p>
         </div>
 
         <div>
@@ -90,7 +92,6 @@
     <div style="background-color: black" class="d-flex justify-content-center">
       Fatec - Taquaritinga {{ new Date().getFullYear() }}
     </div>
-    
   </footer>
 </template>
 

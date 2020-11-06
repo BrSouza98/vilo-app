@@ -15,7 +15,6 @@
                   id="input-group-1"
                   label="Seu e-mail:"
                   label-for="input-1"
-                  
                 >
                   <b-form-input
                     id="input-1"
@@ -169,7 +168,7 @@ export default {
         checked: [],
       },
       assuntos: [
-        {text: "Selecione o assunto.", value: null},
+        { text: "Selecione o assunto.", value: null },
         "Aluno",
         "Direção",
         "Matriculas",
@@ -179,12 +178,11 @@ export default {
     };
   },
   methods: {
-
     onSubmit(evt) {
       evt.preventDefault();
-      alert('Mensagem enviada com sucesso!');
+      alert("Mensagem enviada com sucesso!");
 
-          this.form.email = "";
+      this.form.email = "";
       this.form.name = "";
       this.form.assunto = "";
       this.form.textarea = null;
@@ -194,9 +192,6 @@ export default {
       this.$nextTick(() => {
         this.show = true;
       });
-
-      
-
     },
     onReset(evt) {
       evt.preventDefault();
@@ -215,7 +210,6 @@ export default {
 
     EnviarLimpar() {
       // Reset our form values
-  
     },
   },
 };

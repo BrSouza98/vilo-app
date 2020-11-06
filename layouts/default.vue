@@ -1,9 +1,8 @@
 <template>
   <div>
-          <navbar></navbar>
-          
-    <migalha vizualizar="false">
-    </migalha>
+    <navbar></navbar>
+
+    <migalha vizualizar="false"> </migalha>
 
     <Nuxt />
 
@@ -13,17 +12,12 @@
 
 <script>
 export default {
-  name: 'principal',
+  name: "principal",
 
-  data(){
-    return{
-      
-    }
-  }
-
-
-}
-
+  data() {
+    return {};
+  },
+};
 </script>
 
 <style>
