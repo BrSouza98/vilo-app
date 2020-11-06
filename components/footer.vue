@@ -2,7 +2,7 @@
   <footer class="footer">
     <div class="container">
       <div class="row justify-content-around">
-        <div>
+        <div class="col-5">
           <h2>Vilo Vincenzzi</h2>
           <p><a href="sobre">Sobre</a></p>
           <p><a href="metodologia">Metodologia</a></p>
@@ -15,7 +15,7 @@
           <p><a href="contato">Fale conosco</a></p>
         </div>
 
-        <div>
+        <div class="col-5">
           <h3>Informações de contato</h3>
           <p class="margem">
             <svg
